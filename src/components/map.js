@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import keys from '../keys'
 import {
   GoogleMap,
   withGoogleMap,
@@ -81,7 +80,7 @@ export default function simpleMap() {
       <WrappedMap
         isMarkerShown
         googleMapURL={
-          "https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&AIzaSyBO37tWXY7797JXJmFXstlFy4J6rSMcu68"
+          "https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=AIzaSyBO37tWXY7797JXJmFXstlFy4J6rSMcu68"
         }
         loadingElement={<div style={Style} />}
         containerElement={<div style={containerElementStyle} />}
